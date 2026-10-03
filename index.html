@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ANGELFACES - Til o'rganish va zamonaviy loyihalar platformasi.">
+    <title>Bosh sahifa | ANGELFACES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-logo"><span>ANGELFACES</span></div>
+            <ul class="sidebar-menu">
+                <li class="active"><a href="./index.html"><span>Bosh sahifa</span></a></li>
+                <li><a href="./loyihalar.html"><span>Loyihalar</span></a></li>
+                <li><a href="./kitoblar.html"><span>Kitoblar</span></a></li>
+                <li><a href="./aloqa.html"><span>Aloqa</span></a></li>
+            </ul>
+            <div class="sidebar-footer"><a href="./aloqa.html"><span>Biz bilan bog'laning</span></a></div>
+        </aside>
+
+        <!-- ASOSIY QISM -->
+        <main class="main-wrapper">
+            <section class="main">
+                <div class="main-content">
+                    <nav class="hero-navbar">
+                        <span class="hero-logo">ANGELFACES</span>
+                        <button class="btn-login" type="button">Kirish</button>
+                    </nav>
+                    <div class="main-left">
+                        <h2>Yangi bilimlarni biz bilan kashf eting</h2>
+                        <p>Zamonaviy tillarni o'rganing, loyihalarda qatnashing va o'z imkoniyatlaringizni kengaytiring.</p>
+                        <button class="btn-main" onclick="window.location.href='./kitoblar.html'">Boshlash</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- KITOBLAR SEKSIYASI -->
+            <section class="books-section">
+                <div class="books-container">
+                    <div class="section-title">
+                        <h2>O'quv kitoblari va qo'llanmalar</h2>
+                        <p>Har bir daraja uchun maxsus tayyorlangan interaktiv o'quv materiallari.</p>
+                    </div>
+                    <div class="cards-wrapper">
+                        <!-- 1-kitob -->
+                        <article class="book-card card-blue">
+                            <div class="card-image"><img src="./images.jpg" alt="Children English kitobi"></div>
+                            <div class="card-info">
+                                <h3>Children English</h3>
+                                <span>Ingliz tili</span>
+                            </div>
+                            <div class="card-footer">
+                                <div class="lang-select">
+                                    <select aria-label="Tilni tanlang">
+                                        <option value="uz">UZ</option>
+                                        <option value="en">EN</option>
+                                    </select>
+                                </div>
+                                <button class="btn-order" onclick="window.location.href='./aloqa.html'">Buyurtma</button>
+                            </div>
+                        </article>
+
+                        <!-- 2-kitob -->
+                        <article class="book-card card-peach">
+                            <div class="card-image"><img src="./1.jpg" alt="Français facile kitobi"></div>
+                            <div class="card-info">
+                                <h3>Français facile</h3>
+                                <span>Fransuz tili</span>
+                            </div>
+                            <div class="card-footer">
+                                <div class="lang-select">
+                                    <select aria-label="Tilni tanlang">
+                                        <option value="fr">FR</option>
+                                        <option value="uz">UZ</option>
+                                    </select>
+                                </div>
+                                <button class="btn-order" onclick="window.location.href='./aloqa.html'">Buyurtma</button>
+                            </div>
+                        </article>
+
+                        <!-- 3-kitob -->
+                        <article class="book-card card-purple">
+                            <div class="card-image"><img src="./Gemini_Generated_Image_ankgxcankgxcankg.jpg" alt="Rus tili kitobi"></div>
+                            <div class="card-info">
+                                <h3>Шаг за шагом</h3>
+                                <span>Rus tili</span>
+                            </div>
+                            <div class="card-footer">
+                                <div class="lang-select">
+                                    <select aria-label="Tilni tanlang">
+                                        <option value="ru">RU</option>
+                                        <option value="uz">UZ</option>
+                                    </select>
+                                </div>
+                                <button class="btn-order" onclick="window.location.href='./aloqa.html'">Buyurtma</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
